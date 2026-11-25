@@ -1,12 +1,13 @@
 {
   "name": "@prismai-labs/prism-sdk",
   "version": "0.1.0",
-  "description": "TypeScript client SDK for Prism AI",
+  "description": "Experimental TypeScript helper for composing Prism service endpoint URLs",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "lint": "tsc --noEmit",
+    "pretest": "npm run build",
     "test": "node --test"
   },
   "devDependencies": {
